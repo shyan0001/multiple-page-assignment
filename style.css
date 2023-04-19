@@ -1,0 +1,125 @@
+/* start */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edf1f5;
+}
+/* header */
+header{
+    margin:20px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo */
+img[alt="logo"]{
+    scale:0.8;
+}
+/* navigation */
+nav{
+    margin-right:25px;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration:none;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+/* main */
+main{
+    background-image: url("images/stethoscope.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position:150px 0px;
+    margin:0px 0px 0px 125px;
+    padding-top:100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* main left */
+.main_left{
+   
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start
+}
+/* top and bottom angle */
+img[alt="top_angle"]{
+scale:0.7;
+}
+img[alt="bottom_angle"]{
+    scale:0.7;
+    position:relative;
+    left:475px;
+    }
+    /* main left heading */
+.main_left>h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+}
+/* appontment button */
+.appointment_btn{
+    display:inline;
+    padding:10px 20px;
+    background-color: #41d399;
+    border:none;
+    color:white;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+}
+img[alt="mouse"]{
+    scale:0.7;
+    position:relative;
+    top:-40px;
+    left:510px;
+}
+/* main right */
+.main_right{
+    width:500px;
+    height:500px;
+    position:relative;
+    right:-100px;
+     
+}
+/* main right image */
+img[alt="green"]{
+    position:relative;
+    top:25px;
+    right:-50px;
+    z-index: 1;
+    width:350px;
+    height:350px;
+}
+img[alt="yellow"]{
+    position:relative;
+    top:-265px;
+    right:-100px;
+    z-index: 2;
+    width:300px;
+    height:300px;
+}
+img[alt="doctor"]{
+    position:relative;
+    top:-750px;
+    z-index: 3;
+    width:400px;
+    height:500px;
+}
